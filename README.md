@@ -9,8 +9,8 @@ To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM 
 ## Components required: 
 STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory:
+<img src="https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2" width=440, height=450>
 
-![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
 
 4×4 Keypad Module Pin Diagram
  
