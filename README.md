@@ -30,11 +30,10 @@ These Keypad modules are made of thin, flexible membrane material. The 4 x4 keyp
 
 ## Procedure : 
  ## LCD 16X2 
-   16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
-   8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
+With 16 Columns and 2 Rows, the 16x2 LCD gets its name. Many combinations, such as 8×1, 8×2, 10×2, 16×1, etc., are possible. However, we are using the 16*2 LCD here because it is the most popular.
 
-All the above mentioned LCD display will have 16 Pins and the programming approach is also the same and hence the choice is left to you. 
-Below is the Pinout and Pin Description of 16x2 LCD Module:
+You have a choice because all of the aforementioned LCD displays will have 16 pins and use the same programming method. 
+The 16x2 LCD module's pinout and pin description are shown below:
 
 ![image](https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png)
 ![image](https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png)
@@ -42,11 +41,11 @@ Below is the Pinout and Pin Description of 16x2 LCD Module:
 
 4-bit and 8-bit Mode of LCD:
 
-The LCD can work in two different modes, namely the 4-bit mode and the 8-bit mode. In 4 bit mode we send the data nibble by nibble, first upper nibble and then lower nibble. For those of you who don’t know what a nibble is: a nibble is a group of four bits, so the lower four bits (D0-D3) of a byte form the lower nibble while the upper four bits (D4-D7) of a byte form the higher nibble. This enables us to send 8 bit data.
+The 4-bit mode and the 8-bit mode are the two operating modes for the LCD. 
+When using the 4 bit method, we transmit the data one bit at a time—upper bit first, lower bit last. 
+The lower four bits (D0-D3) of a byte create the lower nibble, while the upper four bits (D4-D7) of a byte make the higher nibble. For those of you who are unfamiliar with the term, nibble refers to a group of four bits. We can now communicate 8 bit data thanks to this.
 
-Whereas in 8 bit mode we can send the 8-bit data directly in one stroke since we use all the 8 data lines.
-
- 8-bit mode is faster and flawless than 4-bit mode. But the major drawback is that it needs 8 data lines connected to the microcontroller. This will make us run out of I/O pins on our MCU, so 4-bit mode is widely used. No control pins are used to set these modes. 
+In contrast, since we use all 8 data lines in 8 bit mode, we may transfer 8 bit data straight in a single stroke.
  LCD Commands:
 
 There are some preset commands instructions in LCD, which we need to send to LCD through some microcontroller. Some important command instructions are given below:
